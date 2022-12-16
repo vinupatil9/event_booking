@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-15 19:28:45.754629",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ticket_class",
+  "capacity",
+  "ticket_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "ticket_class",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ticket Class",
+   "options": "VIP\nGeneral"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "ticket_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Ticket Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-15 19:28:45.754629",
+ "modified_by": "Administrator",
+ "module": "Event Booking System",
+ "name": "Ticket Type",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
